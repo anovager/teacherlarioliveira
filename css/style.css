@@ -15,11 +15,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar {
-    position: fixed;
-    background-color: var(--color2);
-}
-
 .banner {
     background-image: url('../media/english-class-teacher-lari-oliveira.jpg');
     width: 100%;
