@@ -11,6 +11,11 @@
     --color3: #ffffff;
 }
 
+::selection {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -29,9 +34,14 @@ html {
 }
 
 .banner h1 {
-    background-color: var(--color2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 81vh;
+    background-color: #d96055a6;
     color: var(--color3);
-    padding: 15px;
 }
 
 section {
